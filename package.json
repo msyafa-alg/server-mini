@@ -1,0 +1,21 @@
+{
+  "name": "cyrax-bridge-mock",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mock server for Cyrax Bridge game panel login API",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.109.0",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "vercel": "^37.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
